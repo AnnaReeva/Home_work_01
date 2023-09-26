@@ -1,0 +1,15 @@
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\Task_50.csproj.AssemblyReference.cache
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\Task_50.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\Task_50.AssemblyInfoInputs.cache
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\Task_50.AssemblyInfo.cs
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\Task_50.csproj.CoreCompileInputs.cache
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\bin\Debug\net6.0\Task_50.exe
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\bin\Debug\net6.0\Task_50.deps.json
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\bin\Debug\net6.0\Task_50.runtimeconfig.json
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\bin\Debug\net6.0\Task_50.dll
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\bin\Debug\net6.0\Task_50.pdb
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\Task_50.dll
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\refint\Task_50.dll
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\Task_50.pdb
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\Task_50.genruntimeconfig.cache
+C:\Users\annre\Desktop\Home_work_c#\Home_work_01\Task_50\obj\Debug\net6.0\ref\Task_50.dll
