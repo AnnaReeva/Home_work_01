@@ -109,5 +109,6 @@ void PrintCheckIfError (int[] results, int X, int Y)
 
 int[,] arr = CreateIncreasingMatrix(3, 4, 2);
 PrintArray(arr);
+
 int[] rez2 = FindNumberByPosition(arr, 2, 2);
 PrintCheckIfError(rez2, 2,2);
