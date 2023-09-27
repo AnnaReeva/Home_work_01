@@ -81,30 +81,21 @@ void PrintArray(int[,] matrix)
 
 int[] FindNumberByPosition (int [,] matrix, int rowPosition, int columnPosition)
 {
-    int len = 1;
-    int[] results = new int[len];
-
-    if (rowPosition > matrix.GetLength(0); columnPosition > matrix.GetLength(1))
-        results[0] = 0;
+    int[] array = new int[2];
+    if (rowPosition > matrix.GetLength(0) - 1 || columnPosition > matrix.GetLength(1) - 1)
+        { 
+            array[0] = 0;
+            array[1] = 0;
+        }
     else
-    {
-        
-        len = len +1;
-        results[0] = matrix[rowPosition, columnPosition];
-        results[1] = 0;
-    }
-    return results;
+        array[0] = matrix[rowPosition,columnPosition];
+        array[1] = 0;
+    return array;   
 }
 
 void PrintCheckIfError (int[] results, int X, int Y)
 {
-    int[,] arr1 = CreateIncreasingMatrix(3, 4, 2);
-    int findNumberInMatrix = arr1[X, Y];
-    if (results[0] == findNumberInMatrix)
-    {
-        Console.Write("да");
-    }
-    else Console.Write("нет");
+    
 }
 
 int[,] arr = CreateIncreasingMatrix(3, 4, 2);

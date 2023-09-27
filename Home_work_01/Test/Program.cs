@@ -32,30 +32,31 @@ void PrintArray(int[,] matrix)
 int[,] matrix = CreateIncreasingMatrix(3, 4, 2);
 PrintArray(matrix);
 
+
 int[] FindNumberByPosition (int [,] matrix, int rowPosition, int columnPosition)
 {
-    int number = matrix[rowPosition,columnPosition];
     int[] array = new int[2];
-    if (rowPosition > matrix.GetLength(0))
-        {
+    if (rowPosition > matrix.GetLength(0) - 1 || columnPosition > matrix.GetLength(1) - 1)
+        { 
             array[0] = 0;
             array[1] = 0;
         }
-    if (columnPosition > matrix.GetLength(0))
-        {
-            array[0] = 0;
-            array[1] = 0;
-        }
-
     else
-        {
-            array[0] = number;
-            array[1] = 0;
-        }
+        array[0] = matrix[rowPosition,columnPosition];
+        array[1] = 0;
     return array;   
 }
 
-int[] arrrez = FindNumberByPosition(matrix,5,2);
+
+void PrintCheckIfError (int[] results, int X, int Y)
+{
+    if (results[0] != 0)
+        Console.WriteLine($"The number in [{X}, {Y}] is {results[0]}");
+    else 
+        Console.WriteLine("There is no such index");
+}
+
+int[] arrrez = FindNumberByPosition(matrix,3,2);
 
 void PrintArr(int[] arr)
 {
@@ -68,3 +69,5 @@ void PrintArr(int[] arr)
 }
 
 PrintArr(arrrez);
+Console.WriteLine();
+PrintCheckIfError(arrrez,3,2);
