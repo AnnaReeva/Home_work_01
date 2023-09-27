@@ -84,7 +84,7 @@ int[] FindNumberByPosition (int [,] matrix, int rowPosition, int columnPosition)
     int len = 1;
     int[] results = new int[len];
 
-    if (rowPosition > matrix.GetLength(0) && columnPosition > matrix.GetLength(1))
+    if (rowPosition > matrix.GetLength(0); columnPosition > matrix.GetLength(1))
         results[0] = 0;
     else
     {
